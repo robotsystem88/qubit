@@ -1,0 +1,118 @@
+*{
+    margin: 0;/*відступи ззовні*/
+    padding: 0;/*відступи всередині*/
+    font-size: 16px;
+    font-weight: normal;
+    list-style: none;
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    margin: 13px auto 15px;
+}
+
+.header_ol{
+    display: flex;
+    gap: 62px;
+}
+
+.header_link{
+    font-size: 14px;
+    line-height: 14px;
+    color: #1C1C1C;
+    text-decoration: none;/*відключення підкреслення тексту*/
+}
+.button{
+    height: 40px;
+    width: 157px;
+    border-radius: 20px;
+    background: #6F2CFF;
+    border: none;/*відключення рамки по периметру кнопки*/
+    font-size: 14px;
+    line-height: 14px;/*положення тексту у кнопці*/
+    color: #FFFFFF;
+}
+
+.button:hover{ /*псевдоклас*/
+    background: #7d5fc2; /*зміна кольору анімація*/
+    transform: 2s;/*тривалість анімації при наведенні*/
+    cursor: pointer;/*зміна курсору на 'рука'*/
+}
+
+
+.main{
+    background: #F6BED9;
+    padding: 58px 0 59px;
+}
+
+.main_title{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 61px;
+    max-width: 470px;
+}
+
+.main_title_violet{
+    color: #6F2DFF;
+}
+
+.main_text{
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 438px;
+    margin: 18px 0;
+}
+
+.main_text_bolt{
+    font-weight: bold; /*жирний шрифт*/
+}
+
+.main_input{
+    height: 45px;
+    width: 268px;
+    border: 1px solid #6F2CFF;
+    border-radius: 28px;
+    padding-left: 26px;
+}
+.main_input::placeholder{/*псевдоклас*/
+    font-size: 15px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.27);
+}
+
+.main_input:focus{/*псевдоклас*/
+    outline: none; /*прибираємо обводку по периметру, під час введення email*/
+}
+
+
+.main_button{
+    height: 45px;
+    width: 187px;
+    margin-left: 9px;
+}
+
+.footer{
+    background-color: #20003C;
+    padding: 58px 0;
+ }
+
+ .footer_ol{
+    display: flex;
+    gap: 62px;
+ }
+
+
+.footer_link{
+    font-weight: 700;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
